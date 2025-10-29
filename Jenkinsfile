@@ -19,7 +19,7 @@ pipeline {
                 echo "push Docker image to docker hub"
                 bat "docker tag kubedemoapp:v1 bvarshii/sample:kubeimage1"
 
-                bat "docker push vshalini01/sample:kubeimage1"
+                bat "docker push bvarshii/sample:kubeimage1"
             }
         }
 
